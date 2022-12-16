@@ -1,5 +1,5 @@
 package com.example.epubtool.DTO
 
-data class GetInfoResponseDto(
+data class InfoResponseDto(
     val result : Map<String, List<Int>>
 )
