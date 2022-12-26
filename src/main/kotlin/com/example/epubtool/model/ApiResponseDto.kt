@@ -1,4 +1,4 @@
-package com.example.epubtool.DTO
+package com.example.epubtool.model
 
 data class ApiResponseDto (
 

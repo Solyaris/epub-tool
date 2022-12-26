@@ -1,6 +1,6 @@
 package com.example.epubtool.services
 
-import com.example.epubtool.DTO.InfoResponseDto
+import com.example.epubtool.model.InfoResponseDto
 import org.springframework.http.HttpHeaders
 import org.springframework.http.HttpStatus
 import org.springframework.http.ResponseEntity
@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service
 import java.net.URL
 
 @Service
-class InfoService {
+class InfoService() {
 
     private val BASE_URL = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&api_key=d1a08d6ec8192e868357af44a5d8fa0f2808"
 
